@@ -1,6 +1,4 @@
 package Try_final;
-
-
 import java.io.Serializable;
 
 public class Teacher extends People implements Serializable {

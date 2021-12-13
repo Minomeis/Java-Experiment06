@@ -1,8 +1,4 @@
-package Test_final;
-
-import Try_final.Course;
-import Try_final.Student;
-import Try_final.Teacher;
+package Try_final;
 
 import java.util.Arrays;
 import java.util.Scanner;

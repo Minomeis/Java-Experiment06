@@ -1,6 +1,8 @@
 package Try_final;
 
-public class People {
+import java.io.Serializable;
+
+public class People implements Serializable {
     private String name;
     private int id;
     private String sex;

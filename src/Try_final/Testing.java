@@ -101,7 +101,6 @@ public class Testing {
                     System.out.println("请输入课程编号退出课程");
                     int class_idd = in.nextInt();
                     stu.drop_course(class_idd);
-
                 }
                 if (choose == 3) {
                     stu.show();

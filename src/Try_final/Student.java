@@ -105,22 +105,19 @@ public class Student extends People {
         c = d;
         this.c = d;
         System.out.println("您已成功退出该课程,现在课表为");
-        show(d);
+        show(c);
     }
+    
     public void write() throws Exception{
-
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(f)); //输出流：往外输出
-        System.out.println(Arrays.toString(c));
+        //System.out.println(Arrays.toString(c));
         out.writeObject(c);
         ObjectInputStream in = new ObjectInputStream(new FileInputStream(f));
-        //Course[] read = (Course[])in.readObject();
-        System.out.println(in.readObject().toString());
-        //System.out.println(Arrays.toString(read));
+        //System.out.println(in.readObject().toString());
         out.close();
-
     }
 
-    public void show(Course[] c) throws Exception{
+    public void show(Course[] c) {
         System.out.println("学生课表");
         int k = 1;
         for(int i=0;i<=this.i;i++) {

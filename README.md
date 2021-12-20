@@ -19,7 +19,7 @@
 3. 之后，在退课函数中，实现读取TXT文件中的信息后，对信息进行更改。
 
 ## 五、流程图
-![]()
+![](https://github.com/Minomeis/Java-Experiment06/blob/master/img/lc.png)
 
 ## 六、主要代码
 1. 在student类中，创建私有变量“f”用来表示学生课表的路径。
@@ -59,7 +59,8 @@
     }
 ```
 ## 七、运行截图
-![]()
+![](https://github.com/Minomeis/Java-Experiment06/blob/master/img/001.jpg)
+![](https://github.com/Minomeis/Java-Experiment06/blob/master/img/002.jpg)
 ## 八、感想体悟
 &emsp;&emsp;本次实验，主要目的是让我们熟悉IO流的使用，在实验之前，先去看了老师给的示例，然后对照着自己尝试实现。
 这一部分对我来说有些复杂，两种形式，学的不是很清晰，中途遇到一些问题，在老师帮助下，都很好的得到了解决。
